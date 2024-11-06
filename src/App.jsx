@@ -1,7 +1,7 @@
 import "./App.css";
 import Card from "./components/Card";
 
-export const App = () => {
+ const App = () => {
   return (
     <div className="App">
       <h1>Carga de estudiantes</h1>
@@ -11,3 +11,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;
